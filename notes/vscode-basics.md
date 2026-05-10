@@ -39,6 +39,12 @@ python scripts/system_health_summary.py
 
 The Source Control tab shows changed files.
 
+Always check status before and after changes:
+
+```powershell
+git status
+```
+
 Basic Git flow:
 
 ```powershell
@@ -82,3 +88,13 @@ If a script came from work, keep it in `powershell-script-sanitization\_raw-priv
 - Keep raw work data out of public repos.
 - Let Codex update README files when a project changes.
 
+## What Not to Commit
+
+Do not commit:
+
+- Passwords, API keys, tokens, certificates, or `.env` files
+- Work exports, logs, screenshots, or production data
+- Real usernames, emails, domains, tenant IDs, hostnames, IPs, ticket numbers, or internal paths
+- Anything from `powershell-script-sanitization\_raw-private`
+
+If unsure, ask Codex to inspect before adding files to Git.
