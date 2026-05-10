@@ -20,6 +20,8 @@ This opens the main project folders together: DevOps lab, Python automation lab,
 - Terminal: run commands without leaving VS Code.
 - Extensions: add tools like Python, PowerShell, Docker, and GitHub Actions support.
 
+If VS Code opens to GitLens, Release Notes, or another welcome page, click the Explorer icon at the top-left activity bar. That is the normal file view.
+
 ## Terminal
 
 Open a terminal with:
@@ -34,6 +36,29 @@ Use it for commands like:
 git status
 python scripts/system_health_summary.py
 ```
+
+## Tasks
+
+VS Code tasks are saved commands you can run from the Command Palette.
+
+Open the Command Palette:
+
+```text
+Ctrl+Shift+P
+```
+
+Then search:
+
+```text
+Tasks: Run Task
+```
+
+Useful starter tasks have been added:
+
+- `Run system health summary`
+- `Run Python tests`
+- `Run hello DevOps script`
+- `Git status`
 
 ## Source Control
 
