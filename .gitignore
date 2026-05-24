@@ -7,3 +7,5 @@ Desktop.ini
 .venv/
 __pycache__/
 
+# Local code intelligence indexes
+.codegraph/
